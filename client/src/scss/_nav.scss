@@ -1,0 +1,34 @@
+.navbar{
+    background-color: transparent !important;
+    transition: background-color 500ms;
+    .navbar-brand img{
+        height: 1.7rem;
+        pointer-events: none;
+        @include respond-to('small') {
+            height: 1rem;
+        }
+    }
+    #lang .row{
+        @include respond-to('medium') {
+            width: 2rem;
+          }
+    }
+    .giticon{
+        img{
+            height: 1.5rem;
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+.nav-colored{
+    background-color: #222 !important;
+}
+
+.nav-transparent{
+    background-color: transparent !important;
+}
+
+.drawer-collapsed{
+    background-color: #222 !important;
+}

@@ -1,0 +1,135 @@
+[
+    {
+        "id": 5,
+        "category": "home",
+        "img": "",
+        "extra": [],
+        "ru":{
+            "TITLE": "",
+            "SHORT_DESC": "",
+            
+            "TEXT": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн."
+            },
+        "en":{
+            "TITLE": "",
+            "SHORT_DESC": "",
+            "TEXT": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+    },
+    {
+        "id": 6,
+        "category": "git",
+        "img": "",
+        "extra": [],
+        "ru":{
+            "TITLE": "Про сайт",
+            "SHORT_DESC": "",
+            "TEXT": "Это одностраничное веб-приложение написано на чистом <span class='fw-bold'>JS</span>, разработано и скомпилировано с помощью <a href='https://webpack.js.org/' target='_blank' class='fw-bold'>Webpack</a>. Использует <a href='https://getbootstrap.com/' target='_blank' class='fw-bold'>Bootstrap</a>, <a href='https://github.com/wagerfield/parallax' target='_blank' class='fw-bold'>Parallax.js</a> и <a href='https://animate.style/' target='_blank' class='fw-bold'>Animate.css</a>. Базовый исходный код этого проекта доступен на <a href='https://github.com/eugene-afk/medialab-root-app' target='_blank' class='fw-bold'>Github</a>."
+            },
+        "en":{
+            "TITLE": "About",
+            "SHORT_DESC": "",
+            "TEXT": "This single page web-application was written on vanilla <span class = 'fw-bold'> JS</span>, developed and compilied with <a href='https: //webpack.js.org/' target = '_ blank' class = 'fw-bold'> Webpack</a>. Using <a href='https://getbootstrap.com/' target='_blank' class='fw-bold'> Bootstrap</a>, <a href='https://github.com/wagerfield/parallax' target ='_blank' class='fw-bold'> Parallax.js</a> and <a href='https://animate.style/' target='_blank' class='fw-bold'> Animate.css</a>. Base source code available on <a href='https://github.com/eugene-afk/medialab-root-app' target='_blank' class='fw-bold'> Github</a>."
+        }
+    },
+    {
+        "id": 1,
+        "category": "blog",
+        "img": "blog_2.webp",
+        "extra": [],
+        "ru":{
+            "TITLE": "Запись 1",
+            "SHORT_DESC": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне.",
+            "TEXT": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн."
+            },
+        "en":{
+            "TITLE": "Post 1",
+            "SHORT_DESC": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "TEXT": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+    },
+    {
+        "id": 4,
+        "category": "blog",
+        "img": "blog_1.webp",
+        "extra": [],
+        "ru":{
+            "TITLE": "Запись 2",
+            "SHORT_DESC": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне.",
+            "TEXT": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн."
+            },
+        "en":{
+            "TITLE": "Post 2",
+            "SHORT_DESC": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "TEXT": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+    },
+    {
+        "id": 2,
+        "category": "projects",
+        "img": "proj_1.webp",
+        "extra":
+            {
+                "progLangs": [
+                    {
+                        "pl": "JS"
+                    },
+                    {
+                        "pl": "C#"
+                    }
+                ],
+                "frameworks":[
+                    {
+                        "fw": "ASP.NET"
+                    },
+                    {
+                        "fw": "React"
+                    }
+                ]  
+            },
+        "ru":{
+            "TITLE": "Проект 1",
+            "SHORT_DESC": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне.",
+            "TEXT": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн."
+            },
+        "en":{
+            "TITLE": "Project 1",
+            "SHORT_DESC": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "TEXT": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+    },
+    {
+        "id": 3,
+        "category": "projects",
+        "img": "proj_2.webp",
+        "extra":
+            {
+                "progLangs": [
+                    {
+                        "pl": "Python"
+                    },
+                    {
+                        "pl": "JS"
+                    }
+                ],
+                "frameworks":[
+                    {
+                        "fw": "Flask"
+                    },
+                    {
+                        "fw": "Vue.js"
+                    }
+                ]  
+            },
+        "ru":{
+            "TITLE": "Проект 2",
+            "SHORT_DESC": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне.",
+            "TEXT": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн."
+            },
+        "en":{
+            "TITLE": "Project 2",
+            "SHORT_DESC": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "TEXT": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+    }
+]

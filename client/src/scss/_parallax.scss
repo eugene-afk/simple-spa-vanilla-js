@@ -1,0 +1,18 @@
+.scene-wrapper{
+    position: fixed;
+    overflow: hidden;
+    height: 110%;
+    width: 100%;
+    .background{
+        background-image: url('../img/bgn.webp');
+        background-size: cover;
+        position: absolute;
+        width: 110%;
+        left: -5%;
+        height: 100%;
+        top: -5%;
+    }
+    #scene{
+        overflow: hidden;
+    }
+}

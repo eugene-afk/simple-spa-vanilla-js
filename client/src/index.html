@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!--For public path, fix mime type issue-->
+<base href="/" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+    <title></title>
+</head>
+  <body>
+
+    <!--Parallax bg-->
+    <div class="scene-wrapper">
+      <ul id="scene" class="h-100 p-0 m-0">
+        <li class="layer h-100 w-100" data-depth="0.2">
+          <div class="background">
+
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top animate__animated animate__fadeInDown">
+      <div class="container-fluid">
+        <button class="navbar-toggler second-button d-xl-none ps-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+        </button>
+          <a class="navbar-brand" href="/" data-link>
+              <img src="img/logo.webp" alt="MediaLab" />
+          </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link text-white fs-4" href="/projects" data-link data-lkey="nav_title_projects"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-4" href="/blog" data-link data-lkey="nav_title_blog"></a>
+            </li>
+          </ul>
+        </div>
+        <div id="nav-actions" class="d-flex justify-content-center align-items-center">
+
+            <!--Github button-->
+            <div class="giticon text-center"
+                  data-bs-toggle="popover" 
+                  title="About" 
+                  data-bs-container="body"
+                  data-bs-placement="bottom"
+                  data-bs-content="str" 
+                  data-bs-animation="false" 
+                  data-bs-delay="100"
+                  data-bs-offset="100" 
+                  data-bs-html="true">
+              <img src="img/github.webp" alt="github" class="pointer" />
+            </div>
+
+            <!--language selection-->
+            <div id="lang" class="text-white">
+              <div class="row mx-1">
+                <div class="col-lg-6 col-12 px-2 py-0">
+                  <div id="en" class="pointer lang">EN</div>
+                </div>
+                <div class="col-lg-6 col-12 px-2 py-0">
+                  <div id="ru" class="pointer lang">RU</div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <!--Root-->
+    <div id="app">
+
+    </div>
+
+    <!--Add note for home contact form modal-->
+    <div class="modal fade" id="exDataModal" tabindex="-1" aria-labelledby="exDataModalLabel" aria-hidden="true">
+      <div class="modal-dialog primaryGreyBG">
+        <div class="modal-content primaryGreyBG text-white">
+          <div class="modal-header p-2">
+          <h5 class="modal-title secondaryBlueColor" id="exDataModalLabel" data-lkey="form_modal_title"></h5>
+          <span type="button" class="primaryRedColor note-cancel" data-bs-dismiss="modal" aria-label="Close">X</span>
+          </div>
+          <div class="modal-body">
+              <div class="mb-3">
+                  <label for="noteInput" class="form-label secondaryYellowColor" data-lkey="form_modal_subtitle"></label>
+                  <textarea class="form-control" id="noteInputModal" rows="3"></textarea>
+              </div>
+          </div>
+          <div class="modal-footer p-2">
+          <button type="button" class="btn btn-secondary note-cancel" data-bs-dismiss="modal" data-lkey="btn_cancel"></button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-lkey="btn_add"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

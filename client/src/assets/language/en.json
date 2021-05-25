@@ -1,0 +1,70 @@
+[
+    {
+        "KEY":"nav_title_projects",
+        "VALUE":"Projects"
+    },
+    {
+        "KEY":"nav_title_blog",
+        "VALUE":"Blog"
+    },
+    {
+        "KEY":"nav_more",
+        "VALUE":"More"
+    },
+    {
+        "KEY":"nav_title_home",
+        "VALUE":"Home"
+    },
+    {
+        "KEY":"form_title",
+        "VALUE":"Contact us using form"
+    },
+    {
+        "KEY":"form_name",
+        "VALUE":"Your name"
+    },
+    {
+        "KEY":"form_phone",
+        "VALUE":"Phone number"
+    },
+    {
+        "KEY":"form_howto",
+        "VALUE":"Choose a communication method"
+    },
+    {
+        "KEY":"form_addinfo",
+        "VALUE":"Add other information"
+    },
+    {
+        "KEY":"form_send",
+        "VALUE":"Send"
+    },
+    {
+        "KEY":"footer_weuse",
+        "VALUE":"We use:"
+    },
+    {
+        "KEY":"form_modal_title",
+        "VALUE":"Other information"
+    },
+    {
+        "KEY":"form_modal_subtitle",
+        "VALUE":"Briefly describe your project or leave a note"
+    },
+    {
+        "KEY":"btn_cancel",
+        "VALUE":"Cancel"
+    },
+    {
+        "KEY":"btn_add",
+        "VALUE":"Add"
+    },
+    {
+        "KEY":"form_option_msg",
+        "VALUE":"messangers/email"
+    },
+    {
+        "KEY":"form_option_call",
+        "VALUE":"phone call"
+    }
+]

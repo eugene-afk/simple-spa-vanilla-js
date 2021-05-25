@@ -1,0 +1,30 @@
+@import "drawer";
+@import "mixins";
+@import "fonts";
+@import "vendor";
+@import "settings";
+@import "vars";
+@import "cookie-bar";
+@import "ui";
+@import "nav";
+@import "home";
+@import "single";
+@import "colors";
+@import "parallax";
+
+body{
+    background-color: #1e1e1e;
+    font-family: 'Montserrat-Light', 'Segoe-UI', sans-serif;
+    overflow-x: hidden;
+}
+
+#app{
+    z-index: 2;
+    position:relative;
+    height: 100%;
+    .container{
+        height: 100%;
+        z-index: 1;
+        min-height: calc(100vh - 126px);
+    }
+}

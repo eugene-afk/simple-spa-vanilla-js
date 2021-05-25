@@ -1,0 +1,13 @@
+{ 
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "esmodules": true
+          }
+        }
+      ]
+    ],
+  "plugins": ["@babel/plugin-proposal-class-properties", "@babel/plugin-transform-classes", "@babel/plugin-syntax-top-level-await"]
+}

@@ -1,0 +1,70 @@
+[
+    {
+        "KEY":"nav_title_projects",
+        "VALUE":"Проекты"
+    },
+    {
+        "KEY":"nav_title_blog",
+        "VALUE":"Блог"
+    },
+    {
+        "KEY":"nav_more",
+        "VALUE":"Далее"
+    },
+    {
+        "KEY":"nav_title_home",
+        "VALUE":"Главная"
+    },
+    {
+        "KEY":"form_title",
+        "VALUE":"Свяжитесь с нами с помощью формы"
+    },
+    {
+        "KEY":"form_name",
+        "VALUE":"Ваше имя"
+    },
+    {
+        "KEY":"form_phone",
+        "VALUE":"Номер телефона"
+    },
+    {
+        "KEY":"form_howto",
+        "VALUE":"Выберите способ связи"
+    },
+    {
+        "KEY":"form_addinfo",
+        "VALUE":"Добавить доп. информацию"
+    },
+    {
+        "KEY":"form_send",
+        "VALUE":"Отправить"
+    },
+    {
+        "KEY":"footer_weuse",
+        "VALUE":"Мы используем:"
+    },
+    {
+        "KEY":"form_modal_title",
+        "VALUE":"Дополнительная информация"
+    },
+    {
+        "KEY":"form_modal_subtitle",
+        "VALUE":"Коротко опишите Ваш проект или оставьте примечание"
+    },
+    {
+        "KEY":"btn_cancel",
+        "VALUE":"Отмена"
+    },
+    {
+        "KEY":"btn_add",
+        "VALUE":"Добавить"
+    },
+    {
+        "KEY":"form_option_msg",
+        "VALUE":"Мессенджер/email"
+    },
+    {
+        "KEY":"form_option_call",
+        "VALUE":"Звонок"
+    }
+]

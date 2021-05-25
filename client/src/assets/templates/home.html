@@ -1,0 +1,67 @@
+<div class="container d-flex">
+    <div id="home" class="row my-2">
+
+        <div class="col-md-6 col-12 d-flex align-items-center my-2 animate__animated animate__fadeIn">
+            <div class="card shadow-lg h-75 w-100 primaryGreyBG mb-3">
+
+                <div class="pt-3 px-4 title-txt">
+                    <span class="title-txt-secondary secondaryBlueColor fs-5">public void</span> 
+                    <span class="title-txt-primary secondaryYellowColor fs-4">
+                        Introduce<span class="text-white">Some</span><span class="secondaryBlueColor">Company</span>
+                        <div class="text-white">{</div>
+                    </span>
+                </div>
+
+                <div id="home_post" class="card-body text-white text-center align-items-center d-flex justify-content-center fs-5">
+                </div>
+
+                <div class="pb-4 px-4 fs-3 text-white">}</div>
+
+            </div>
+        </div>
+
+        <div class="col-md-6 col-12 d-flex align-items-center my-2 animate__animated animate__fadeIn">
+            <div class="card shadow-lg h-75 w-100 primaryGreyBG mb-3">
+                <div class="card-body text-white align-items-center d-flex justify-content-center fs-5 row m-0">
+                    <div>
+                        <div class="alert is-hidden" role="alert">
+                            
+                        </div>
+                        <form id="contact-form" autocomplete="off">
+                            <fieldset>
+                                <legend class="text-center" data-lkey="form_title"></legend>
+                                <div class="mb-3 w-100">
+                                    <label for="nameInput" class="form-label" data-lkey="form_name"></label>
+                                    <input type="text" id="nameInput" name="name" class="form-control" placeholder="Eugene" required>
+                                </div>
+                                <div class="mb-3 w-100">
+                                    <label for="phoneInput" class="form-label" data-lkey="form_phone"></label>
+                                    <input type="text" id="phoneInput" name="phone" class="form-control" placeholder="+380993332222" required>
+                                </div>
+                                <div class="mb-3 w-100">
+                                    <label for="emailInput" class="form-label">Email</label>
+                                    <input type="text" id="emailInput" name="email" class="form-control" placeholder="your@mail.com" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="connectSelect" class="form-label" data-lkey="form_howto"></label>
+                                    <select id="connectSelect" class="form-select" name="howto">
+                                      <option data-lkey="form_option_msg"></option>
+                                      <option data-lkey="form_option_call"></option>
+                                    </select>
+                                  </div>
+                                  <input type="text" id="noteInput" name="note" class="is-hidden" />
+                            </fieldset>
+                        </form>
+                        <div class="text-left">
+                            <button class="btn btn-primary mb-2" data-bs-toggle="modal" data-bs-target="#exDataModal" data-lkey="form_addinfo"></button>
+                            <button id="contact_send_mail" type="button" class="btn btn-success mb-2" data-lkey="form_send"></button>
+                        </div>
+
+                    </div>              
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+

@@ -1,0 +1,29 @@
+#home{
+    .card{
+        min-height: 50vh;
+        overflow-y: auto;
+        @include respond-to('small') {
+            min-height: 100%;
+        }
+    }
+    @include respond-to('small') {
+        margin-top: 56px !important;
+    }
+    .btn{
+        @include respond-to('medium') {
+            width: 100%;
+        }   
+    }
+    .title-txt{
+        .title-txt-secondary{
+            @include respond-to('medium'){
+                font-size: 1.1rem !important;
+            }
+        }
+        .title-txt-primary{
+            @include respond-to('medium'){
+                font-size: 1.35rem !important;
+            }
+        }
+    }
+}

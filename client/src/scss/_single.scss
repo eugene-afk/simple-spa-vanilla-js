@@ -1,0 +1,48 @@
+
+#single{
+    .card{
+        margin-top: 56px;
+    }
+    .card-img-top{
+        margin-top: -4rem;
+        max-height: 15rem;
+        object-fit: cover;
+    }
+    .card-text{
+        word-break: break-all;
+    }
+}
+
+#posts{
+    background-color: #f7f7f7de;
+    border-radius: .25rem;
+    // min-height: 70vh;
+    align-items: flex-start;
+    margin-top: 66px;
+    margin-bottom: 66px;
+    .blog-img{
+        height: 12rem;
+        width: 25rem;
+        object-fit: cover;
+    }
+    .card-img-top{
+        height: 10rem;
+        object-fit: cover;
+    }
+    .card-body{
+        .row{
+            .project-info{
+                word-wrap: break-all;
+                align-self: center;
+                width: 10rem;
+                overflow-x: hidden;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+#single{
+    margin-top: 66px;
+    margin-bottom: 66px;
+}
